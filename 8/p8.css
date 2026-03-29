@@ -1,0 +1,20 @@
+#loading{
+    width: 80px;
+    height: 80px;
+    border:8px solid lightgrey;
+    border-top: 8px solid blue;
+    border-radius:50px;
+    position: absolute;
+    top:300px;
+    left: 700px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

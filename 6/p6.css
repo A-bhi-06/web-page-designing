@@ -1,0 +1,29 @@
+ul{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+a{
+    color: white    ;
+}
+
+.out{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    background-color:rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.in{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(240, 0, 0);
+}
